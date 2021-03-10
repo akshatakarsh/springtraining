@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+     xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans   
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+<bean id="ans1" class="siwithcollection2.Answer">
+    <property name="id" value="1"></property>
+    <property name="name" value="Java is Programming language"></property>
+    <property name="by" value="Akshat Akarsh"></property>
+</bean>
+<bean id="ans2" class="siwithcollection2.Answer">
+    <property name="id" value="2"></property>
+    <property name="name" value="Java is object oriented language"></property>
+    <property name="by" value="Akshat Akarsh"></property>
+</bean>
+<bean id="q" class="siwithcollection2.Question">
+    <property name="id" value="101"></property>
+      <property name="name" value="What is Java ?"></property>
+      <property name="answer">
+          <list >
+              <ref bean="ans1" />
+              <ref bean="ans2" />
+              
+          </list>
+      </property>
+</bean>
+</beans>
