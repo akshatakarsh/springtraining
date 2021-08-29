@@ -10,8 +10,7 @@
   <dependencies>
   <dependency>  
     <groupId>org.springframework</groupId>  
-    <artifactId>spring-webmvc</artifactId>  
-    <version>5.1.1.RELEASE</version>  
+    <artifactId>spring-webmvc</artifactId>    
 </dependency>  
 <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->  
 <dependency>    
@@ -29,4 +28,13 @@
   <build>
     <finalName>SpringMvcController</finalName>
   </build>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-webmvc</artifactId>
+  			<version>5.1.1.RELEASE</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
 </project>
