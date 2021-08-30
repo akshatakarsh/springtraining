@@ -6,5 +6,6 @@ B(){
 }
 void print(){
 	System.out.println("Hello B");
+	
 }
 }
