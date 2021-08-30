@@ -14,7 +14,7 @@
     <artifactId>spring-webmvc</artifactId>    
 =======
     <artifactId>spring-webmvc</artifactId>  
-    <version>5.1.1.RELEASE</version>  
+    <version>5.1.14.RELEASE</version>  
 >>>>>>> 88dc333de30c462b88f76f358770155391949ae3
 </dependency>  
 <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->  
@@ -39,7 +39,7 @@
   		<dependency>
   			<groupId>org.springframework</groupId>
   			<artifactId>spring-webmvc</artifactId>
-  			<version>5.1.1.RELEASE</version>
+  			<version>5.1.14.RELEASE</version>
   		</dependency>
   	</dependencies>
   </dependencyManagement>
