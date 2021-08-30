@@ -7,7 +7,7 @@ B(){
 void print(){
 	System.out.println("Hello B");
 	System.out.println("Hello testing rebase");
-	System.out.pritln("Hello testing rebase2");
+	System.out.println("Hello testing rebase2");
 	
 }
 }
