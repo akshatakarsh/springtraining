@@ -18,6 +18,8 @@ public Teacher(Student s) {
 
 
 public void print() {
+	System.out.println("Printing student object");
+
 	System.out.println(S);
 }
 }
