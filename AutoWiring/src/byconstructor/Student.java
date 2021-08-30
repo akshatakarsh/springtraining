@@ -34,6 +34,7 @@ public class Student {
 	}
 	public Student() {
 		super();
+		System.out.println("Student Object is created");
 		// TODO Auto-generated constructor stub
 	}
 	
